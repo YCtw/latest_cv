@@ -1,0 +1,129 @@
+body {
+  margin:0;
+  text-align:center;
+  background-color: #DFF6FF;
+}
+
+h2 {
+  color: #051367;
+}
+
+.top_container {
+  position: relative;
+  padding-top:100px;
+}
+
+.name {
+  margin: 50px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-size: 75px;
+  color: #398AB9;
+
+}
+
+.description {
+  font-family: 'Cormorant', serif;
+  font-size: 35px;
+  color: #398AB9;
+  font-weight: normal;
+}
+
+.profile {
+  margin-bottom: 50px;
+}
+
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.first-skill {
+  float:left;
+  margin-right:40px;
+}
+
+.skill-python {
+  color: #051367;
+  text-align:left;
+
+}
+
+.second-skill {
+  float:right;
+}
+.skill-sql {
+  color: #051367;
+  text-align:left;
+}
+
+.skill-description-python {
+  text-align:left;
+  line-height:2;
+}
+
+.skill-description-sql {
+  text-align:left;
+  line-height:2;
+}
+
+.skill-row {
+  width:50%;
+  margin:100px auto 150px auto;
+}
+
+.skill-row-second {
+  width:50%;
+  margin:100px auto 200px auto;
+}
+
+.contact-me {
+  margin-top: 50px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: gray;
+  border-width: 5px;
+  width: 10%;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin-top:25px;
+}
+
+.linkedin-link {
+  margin-right:5px;
+  text-decoration: none;
+}
+
+.facebook-link {
+  margin-right:5px;
+  text-decoration: none;
+}
